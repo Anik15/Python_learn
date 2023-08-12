@@ -22,7 +22,7 @@ ci = p*pow((1 + r/100),2)
 print("Return in compound interest: ",ci)
 
 # 4- write a program that takes the city name from user input. irrespective of in which case the user enters the city name,
-# print the city name in camel case meaning the first letter should be capitalized and rest in small.
+# print the city name in camel case meaning the first letter should be capitalized and the rest in small.
 # example: input: MYSORE,  print - > Mysore
 city = str(input("Please Enter the city: "))
 city = city.capitalize()
@@ -36,7 +36,7 @@ print("Index of 'a':" + str(index))
 
 # 6-  Display the number of letters in the below string
 my_word = "antidisestablishmentarianism"
-print("Length of my word: ",len(my_word))
+print("Length of my word: 'antidisestablishmentarianism' -  ",len(my_word))
 
 # 7- take 3 inputs from the user: first name, last name, and age. Display the information in the below format
 # exmaple
@@ -61,7 +61,7 @@ print(f"My name is {fc_name} {lc_name} and I am {age} years old.")
 # last name: sharma
 # company: infosys
 # Display: morma@infosys.com
-# note full email id should -be in lower case
+# note full email id should -be in lowercase
 
 first_name = str(input("Please Enter your First Name: "))
 last_name = str(input("Please Enter your Last Name: "))
